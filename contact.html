@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Form</title>
+    <link rel="stylesheet" href="./contact.css">
+</head>
+<body>
+    <div class="whole">
+        <div class="top">
+            <div class="Head1">
+                <h1>Please Be My Friend</h1>
+            </div>
+            <div class="Head2">
+                <h3>Fill Out the Form Below!</h3>
+            </div>
+        </div>
+
+        <div class="Form">
+            <form>
+                <label for="fname">First Name</label><br>
+                <input type="text" id="fname" name="fname"><br>
+
+                <label for="lname">Last Name</label><br>
+                <input type="lname" id="lname" name="lname"><br><br>
+
+                <label for="sex">Select Gender</label><br>
+                <input type="radio" id="Male" name="sex" value="Male"><br>
+                <label for="Male">Male</label><br>
+                <input type="radio" id="Female" name="sex" value="Female"><br>
+                <label for="Female">Female</label><br>
+                <input type="radio" id="other" name="sex" value="other"><br>
+                <label for="Other">Other</label><br><br>
+
+                <label for="email">Email Address</label><br>
+                <input type="email" id="email" name="email"><br>
+
+                <label for="tel">Phone Number</label><br>
+                <input type="tel" id="tel" name="tel"><br><br>
+
+                <input class="btn" type="submit" value="Submit" onclick="open">
+            </form>
+        </div>
+
+        <!-- Get Help with Chat Box -->
+        <div class="chat">
+            <p>Help</p>
+        </div>
+<!-- 
+        <div class="chatPopup">
+            <div class="chatArea">
+                <div class="botBox1">Hey there! It doesn't seem like it submitted I'm Here to help!</div>
+                <div class="botBox2">Don't you worry! I got this.</div>
+                <div class="botBox3">Haha oops! Mistakes happen. On the bright side your form was submitted.</div>
+                <div class="botBox4">Now I have your information forever. Just kidding, but now you're in my contacts. It was nice meeting you!</div>
+            </div>
+        </div> -->
+    </div>
+    <script src="./contact.js"></script>
+</body>
+</html>
